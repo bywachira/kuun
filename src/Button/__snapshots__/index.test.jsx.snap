@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#BUTTON should render properly 1`] = `
+<Button
+  onClick={[Function]}
+  shape="pill"
+  size="large"
+  type="default"
+>
+  <styled.button
+    onClick={[Function]}
+    shape="pill"
+    size="large"
+    type="default"
+  >
+    <button
+      className="sc-bdnylx ectldl"
+      onClick={[Function]}
+      shape="pill"
+      size="large"
+      type="default"
+    >
+      children
+    </button>
+  </styled.button>
+</Button>
+`;
