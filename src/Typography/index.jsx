@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Styles from './styles'
+import * as Styles from './style'
 
 function Title({ size, children }) {
   return (
