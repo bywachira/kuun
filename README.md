@@ -15,8 +15,7 @@ npm install --save kuun
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'kuun'
-import 'kuun/dist/index.css'
+import { MyComponent } from 'kuun'
 
 class Example extends Component {
   render() {

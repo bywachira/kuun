@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#TYPOGRAPHY_PARAGRAPH should render 1`] = `
+<Paragraph
+  color="red"
+  strong={true}
+>
+  <styled.p
+    color="red"
+    strong={true}
+  >
+    <p
+      className="sc-eCApGN bZjrIc"
+      color="red"
+    />
+  </styled.p>
+</Paragraph>
+`;
+
+exports[`#TYPOGRAPHY_TITLE should render 1`] = `
+<Title
+  size={4}
+>
+  <styled.h4>
+    <h4
+      className="sc-hKFyIo fZBqiv"
+    >
+      Tiny Title
+    </h4>
+  </styled.h4>
+</Title>
+`;
+
+exports[`#TYPOGRAPHY_TITLE should render 2`] = `
+<Title
+  size={3}
+>
+  <styled.h3>
+    <h3
+      className="sc-dlnjPT IkCFx"
+    >
+      Small Title
+    </h3>
+  </styled.h3>
+</Title>
+`;
+
+exports[`#TYPOGRAPHY_TITLE should render 3`] = `
+<Title
+  size={2}
+>
+  <styled.h2>
+    <h2
+      className="sc-gtssRu jscVVC"
+    >
+      Medium Title
+    </h2>
+  </styled.h2>
+</Title>
+`;
+
+exports[`#TYPOGRAPHY_TITLE should render 4`] = `
+<Title>
+  <styled.h1>
+    <h1
+      className="sc-bdnylx jClOke"
+    >
+      Large Title
+    </h1>
+  </styled.h1>
+</Title>
+`;

@@ -1,3 +1,4 @@
 import Button from './Button'
+import { Title, Paragraph } from './Typography'
 
-export { Button }
+export { Button, Title, Paragraph }

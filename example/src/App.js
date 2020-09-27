@@ -1,8 +1,7 @@
 import React from 'react'
 import { Section, Flex, SectionTitle } from './styles'
 
-// import { ExampleComponent } from 'kuun'
-import { Button } from 'kuun'
+import { Button, Title, Paragraph } from 'kuun'
 import 'kuun/dist/index.css'
 
 const App = () => {
@@ -36,6 +35,14 @@ const App = () => {
             Pill
           </Button>
         </Flex>
+      </Section>
+      <Section>
+        <SectionTitle>Typography</SectionTitle>
+        <Title>Title</Title>
+        <Title size={2}>Title</Title>
+        <Title size={3}>Title</Title>
+        <Title size={4}>Title</Title>
+        <Paragraph size='16px'>Paragraph</Paragraph>
       </Section>
     </>
   )
