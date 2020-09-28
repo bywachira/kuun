@@ -1,11 +1,17 @@
 import React from 'react'
 import { Section, Flex, SectionTitle } from './styles'
 
-import { Button, Title, Paragraph, Dropdown } from 'kuun'
+import { Button, Title, Paragraph, Dropdown, Layout } from 'kuun'
 
 const App = () => {
   return (
-    <>
+    <Layout
+      logoPath='https://seller.roko.store/logo.png'
+      navItems={[
+        { label: 'Menu Item 1', onSelect: () => console.log('Menu item') }
+      ]}
+    >
+      <div></div>
       <Section>
         <SectionTitle>Buttons</SectionTitle>
         <Flex>
@@ -55,7 +61,7 @@ const App = () => {
           />
         </Flex>
       </Section>
-    </>
+    </Layout>
   )
 }
 
